@@ -1,0 +1,644 @@
+/*main style start*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+img
+{
+    width: 100%;
+
+}
+a
+{
+    text-decoration: none;
+}
+.clr
+{
+    clear: both;
+}
+::selection {
+    color: #fff;
+    background: black;
+    ;
+  }
+  /*main style end*/
+  /*header section start*/
+header .carousel
+{
+    position:relative;
+ 
+}
+
+
+header .container .navbar-brand 
+{
+    color: #fff !important;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    text-transform: none;
+   
+}
+header .container .navbar-brand
+{
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 3333;
+    left: 20%;
+    top:3%; 
+}
+header .container .navbar  ,.navbar-brand
+{
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 3333;
+    right: 20%;
+    top:3%;
+}
+header .container .navbar .collapse .nav-item .nav-link
+{
+   
+    color: rgba(255,255,255,.6);
+    font-size: 14px;
+    text-decoration: none!important;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+header .container .navbar .collapse  .active .nav-link
+{
+    color: #fff;
+}
+header .container .navbar .collapse .navbar-nav .dropdown  .show
+{
+  background-color: black;
+  border-radius: 5px;
+}
+
+header .container .navbar .collapse .navbar-nav .dropdown:hover .menu-1
+{
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+   
+  
+} 
+
+header .container .navbar .collapse .navbar-nav .dropdown .menu-1 .dropdown:hover .dropdown-menu
+{
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+}
+header .container .navbar .collapse .navbar-nav .dropdown:hover .menu-1
+{
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+} 
+
+
+header .nav-item:hover a
+{
+    color: #fff !important;
+}
+header .dropdown:hover .menu-1 
+{
+    display: block;
+}
+
+
+header .container .navbar .collapse .navbar-nav .dropdown:hover .dropdown-menu .sub-dropdown .dropdown-menu
+{
+    display:contents;
+} 
+header .container .navbar .collapse .navbar-nav .dropdown .dropdown-item
+{
+    color: #fff;
+}
+
+header .container .navbar .collapse .navbar-nav .dropdown .dropdown-item:hover 
+{
+    color: red !important;
+    background-color: transparent ;
+}
+
+header .container .navbar .collapse .navbar-nav .dropdown  .show .sub-dropdown:focus 
+{
+    background-color: transparent;
+}
+header .carousel  .carousel-inner .carousel-item .carousel-caption
+{
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+header .carousel  .carousel-inner .carousel-item .carousel-caption h1 , h2
+{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Playfair Display";
+
+}
+header .carousel  .carousel-inner .carousel-item .carousel-caption p
+{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 12px;
+    padding: 7px 10px;
+    color: #fff;
+    display: inline-block;
+}
+  /*header section end*/
+    /*room section start*/
+.room
+{
+    background-color: #f8f9fa;
+    padding: 60px 0;
+   
+}
+
+.room .container .room-text
+{
+    padding: 40px;
+}
+.room .container .room-text h2
+{
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;
+    position: relative ;
+}
+.room .container .room-text h2::after
+{
+    content: " ";
+    background-color: black;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    left:25%;
+}
+.room .card {
+    border:none;
+    margin-top: 35px;
+    text-align: center;
+    transition: all .4s;
+    overflow: hidden;
+    
+}
+.room  .card:hover {
+    box-shadow: 0px 0px 10px rgb(182, 182, 182);
+}
+ 
+.room .card .card-img-top {
+    transition: all .5s;
+    overflow: hidden;
+}
+.room .container .row .col-lg-4 .card:hover .card-img-top {
+    transform: scaleX(1.1);
+ 
+}
+  /*room section end*/
+    /*about us section start*/
+.about_us .container .About-text
+{
+    padding-bottom: 20px;
+}
+.about_us .container .About-text h2
+{
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;
+    position: relative ;
+    
+}
+.about_us .container .About-text h2::after
+{
+    content: " ";
+    background-color: black;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    left:0;
+    
+}
+.about_us
+{
+    padding:  70px 0;
+}
+.about_us .card 
+{
+    border: none;
+}
+.about_us .col-md-6
+{
+    position: relative;
+    padding-right: 50px;
+}
+.about_us .img_2
+{
+position: absolute;
+bottom: -15%;
+right: -10%;
+width:285px ;
+height: 200px;
+border: #fff solid 7px;
+}
+.about_us .text 
+{
+    padding-left: 70px;
+}
+.about_us .card-text
+{
+    line-height: 1.7;
+    color: rgba(0,0,0,.5);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Work Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.about_us .popup-vimeo
+{
+    
+    color: #f23a2e;
+    text-decoration: none;
+    text-transform: uppercase!important;
+    transition: .3s all ease;
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Work Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.about_us .popup-vimeo:hover
+{
+    color: #c7180c;
+}
+/*about us section end*/
+/*icons section start*/
+ .icons .card
+ {
+     border: none;
+ }
+ .icons .container .room-text
+{
+    padding: 40px;
+}
+.icons .container .room-text h2
+{
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;
+    position: relative ;
+}
+.icons .container .room-text h2::after
+{
+    content: " ";
+    background-color: black;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    left:25%;
+}
+.icons .img-div
+{
+    margin: auto;
+}
+.icons .img-div img
+{
+    width: 70px !important;
+    height: 70px !important;
+
+}
+.icons .card-body
+{
+    color: #000;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center!important;
+ 
+}
+.icons .card-body h5 
+{
+    font-size: 18px !important;
+}
+/*icons section end*/
+/*Promo section start*/
+ .Promo .sumer-Promo 
+ {
+     background-image: url("../img/Cover_1.webp");
+     background-attachment: fixed;
+     height: 150px;
+ }
+ .Promo .card
+ {
+     background-color: transparent;
+     border: none;
+     padding: 20px 0;
+     
+ }
+ .Promo h2 
+ {
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     padding-top: 10px;
+ }
+ .Promo .btn 
+ {
+     width: 100px;
+     font-size: 13px;
+ }
+ .Promo .caption
+ {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 12px;
+    padding: 7px 10px;
+    color: #fff;
+    padding-top: 30px;
+ }
+ .Promo .label
+{
+    font-size: 40px;
+
+}
+.Promo .countdown-block
+{
+    color: rgba(255, 255, 255, 0.623);
+    font-weight: 600;
+}
+/*Promo section end*/
+/*Gallery section start*/
+.Gallery 
+{
+    padding: 70px 0;
+}
+.Gallery .container .Gallery-text h2
+{
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;
+    position: relative ;
+    margin-bottom:48px!important;
+    
+}
+.Gallery .container .Gallery-text h2::after
+{
+    content: " ";
+    background-color: black;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    left:25%;
+    
+}
+.Gallery .card
+{
+    transition: .2s all ease;
+}
+.Gallery .card:hover
+{
+    cursor: zoom-in; 
+    opacity: .5;
+}
+/*Gallery section end*/
+/*events section start*/
+
+.events
+{
+   
+    padding: 60px 0;
+   
+}
+
+.events .container .events-text
+{
+    padding: 40px;
+}
+.events .container .events-text h2
+{
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;
+    position: relative ;
+}
+.events .container .events-text h2::after
+{
+    content: " ";
+    background-color: black;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    bottom: -5px;
+    left:30%;
+}
+.events .card
+{
+    border: none;
+}
+.events .head
+{
+    font-size: 18px;
+}
+.events .head  a
+{
+    color: #000 !important;
+    font-weight:300;
+    line-height: 1.2;
+    font-family: "Playfair Display";
+}
+.events .mb-3 ,p
+{
+    color: rgba(0,0,0,.4);
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Work Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.events .mb-3 a
+{
+    color: #f23a2e;
+}
+/*events section end*/
+/*peopleSay section start*/
+.peopleSay 
+{
+    padding-top:70px ;
+    padding-bottom:150px ;
+    background-color: #f8f9fa!important;
+}
+.peopleSay .container .peopleSay-text h2
+{
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;
+    position: relative ;
+    padding-bottom: 50px;
+}
+.peopleSay .container .peopleSay-text h2::after
+{
+    content: " ";
+    background-color: black;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    bottom: 45px;
+    left:30%;
+}
+.peopleSay  .card 
+{
+    border: none;
+    background-color: #f8f9fa;
+}
+/*peopleSay section end*/
+/*site-footer section start*/
+.site-footer
+{
+    background: rgba(0,0,0,.8);
+    padding: 50px 0;
+}
+.site-footer .footer-heading
+{
+    font-size: 20px;
+}
+
+.site-footer p ,a
+{
+color: rgba(255,255,255,.5);
+}
+.site-footer a
+{
+    line-height: 2;  
+}
+.site-footer a:hover
+{
+    color: #fff;
+    text-decoration: none;
+ 
+}
+.site-footer .btn-danger
+{
+    border-radius: 100px;
+background-color: #f23a2e;
+border-color: #f23a2e;
+}
+.site-footer .btn-danger:hover
+{
+    background-color: #eb1c0f;
+    border-color: #df1b0e;
+    box-shadow: 0 5px 20px -7px rgba(0,0,0,.9)!important;
+}
+/*site-footer section end
+*/
+/* contact us page style  start */
+.contct_us
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contct_us a 
+{
+    color: red;
+}
+.contct_us label
+{
+    line-height: 1.7;
+    color: rgba(0,0,0,.5);
+
+}
+.contct_us .btn-danger
+{
+border-radius: 100px;
+background-color: #f23a2e;
+border-color: #f23a2e;
+}
+.contct_us .btn-danger:hover
+{
+     box-shadow: 0 5px 20px -7px rgba(0,0,0,.9)!important;;
+    background-color: #eb1c0f;
+    border-color: #df1b0e;
+}
+/* contact us page style end */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h2
+    {
+        font-size: 22px !important;
+    }
+    h2::after
+    {
+        width: 90px !important;
+    }
+    .about_us .text { padding: 0 !important;}
+    .about_us .col-md-6 {padding: 0 !important;}
+    .bg-white
+    {
+        padding: 2px !important;
+    }
+    .events .mb-3, p
+    {
+        font-size: 10px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+.form-group .col-md-12
+{
+    padding: 0 !important;
+}
